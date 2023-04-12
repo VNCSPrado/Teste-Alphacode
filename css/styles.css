@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    background-color: #c3c3c3;
+}
+
+main{
+    
+    width: 55%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+header{
+
+    margin-top: 40px;
+    background-color: #068ed0;
+    height: 140px;
+    border-radius: 4px 4px 0 0;
+    display: flex !important;
+    align-items: center;
+     
+}
+
+
+header img{
+    height: 130px; 
+}
+
+h1{
+    color: #fff !important;
+    margin-left: 30px;
+}
+
+h3{
+    color: #a9a9a9;
+    font-size: 24px;
+}
+
+.container-register{
+    margin: 30px 30px 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container-register input{
+    margin-top: 10px;
+    border: 0;
+    height: 40px;
+    
+    cursor: pointer;
+    
+}
+
+.line-botton{
+    margin-top: 10px;
+    border-bottom: 2px solid #a9a9a9 ; 
+}
+
+
+.line-notification{
+    margin-top: 70px;
+    border-bottom: 1px solid #a9a9a9 ;
+    margin-bottom: 100px;
+}
+
+.margin-top-register{
+    margin-top: 60px;
+}
+
+.container-notification{
+    font-size: 18px;
+    color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+.notification-margin{
+   
+    margin-left: 30px;
+}
+
+.button-notification{
+    margin: 30px 30px 30px 45px;
+}
+
+
+
+.button-register{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table {
+    width: 90% !important;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+
+.table tr{
+    border: solid 1px #a9a9a9;
+}
+.header-info{
+    
+    font-size: 20px;
+    background-color: #068ed0;
+    color: #fff;
+    max-width: 80%;
+}
+
+.register-info{
+    padding-left: -50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #a9a9a9;
+}
+
+.img-info{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.img-info img{
+    padding: 5px;
+}
+
+footer{
+    background-color: #068ed0;
+    height: 110px;
+    margin-top: 160px;
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-info{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+.footer-img img{
+   height: 30px;
+   
+}
